@@ -1,0 +1,11 @@
+feet1 = int(input("Enter The Feet: "))
+inches1 = int(input("Enter The Inches: "))
+feet2 = int(input("Enter The Feet: "))
+inches2 = int(input("Enter The Inches: "))
+c = feet1 * 12
+d = feet2 * 12
+p = c + d + inches1 + inches2 
+g = p // 12
+h = p % 12
+
+print("Feet: "+ str(g) + " Inches: "+ str(h))

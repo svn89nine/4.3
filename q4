@@ -1,0 +1,4 @@
+num = float(input("Enter a number: "))
+x =int(num)
+y =float(num - x)
+print(y)
